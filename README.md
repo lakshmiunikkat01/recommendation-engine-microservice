@@ -7,12 +7,12 @@ The system generates personalized user recommendations and similar item suggesti
 
 ##  Features
 
-- Personalized **user → item recommendations**
-- **Similar item** recommendations (item–item similarity)
+- Personalized user → item recommendations
+- Similar item** recommendations (item–item similarity)
 - Collaborative filtering using a user–item interaction matrix
-- REST APIs built with **FastAPI**
-- Interactive API documentation using **Swagger UI**
-- Uses real-world **MovieLens (Kaggle)** dataset
+- REST APIs built with FastAPI
+- Interactive API documentation using Swagger UI
+- Uses real-world MovieLens (Kaggle) dataset
 - Clean separation between model, service, and API layers
 
 ---
@@ -55,8 +55,10 @@ recommendation-engine-microservice/
 
 git clone https://github.com/lakshmiunikkat01/recommendation-engine-microservice.git
 cd recommendation-engine-microservice
+
 2️. Install dependencies
 py -3.10 -m pip install -r requirements.txt
+
 3️. Run the application
 py -3.10 -m uvicorn app.main:app --reload
 The server will start at:
